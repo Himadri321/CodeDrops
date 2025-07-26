@@ -5,7 +5,7 @@ import storage from "redux-persist/lib/storage";
 import { persistReducer, persistStore } from "redux-persist";
 import dropReducer from "./dropSlice"; // your existing reducer
 import { combineReducers } from "redux";
-import thunk from "redux-thunk";
+import { thunk } from "redux-thunk"; // ✅
 
 const persistConfig = {
   key: "root",
