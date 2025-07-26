@@ -1,14 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import { store } from "./redux/store.js";
 import { Provider } from "react-redux";
-import { store, persistor } from "./redux/store"; // make sure the path is correct
-import { PersistGate } from "redux-persist/integration/react";
+import { Toaster } from "react-hot-toast";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <Provider store={store}>
       <App />
-    </PersistGate>
-  </Provider>
+      <Toaster />
+    </Provider>
+  </StrictMode>
 );
