@@ -1,12 +1,67 @@
-# React + Vite
+CodeDrops – Shareable Note Drops
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Features
 
-Currently, two official plugins are available:
+- 📝 Create **text drops** with titles
+- 📋 **Copy to clipboard** with one click
+- 🔗 Generate and **share URLs** for specific drops
+- ⚙️ Built using modern tech: React, Redux, Vite, TailwindCSS
+- 📱 Mobile-ready layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+  ## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 **[Click here to try CodeDrops live](https://your-vercel-url.vercel.app)**  
+Deployed via **Vercel** for lightning-fast performance!
+
+
+## 🛠 Tech Stack
+
+| Category        | Tech Used                             |
+|----------------|----------------------------------------|
+| Frontend       | React, Vite                            |
+| State Mgmt     | Redux Toolkit        |
+| Styling        | TailwindCSS, Lucide Icons              |
+| Deployment     | Vercel                                 |                            |
+| Dev Tools      | VS Code, GitHub, Chrome DevTools       |
+
+
+🙋‍♂️ Author
+Himadri Behera
+
+💼 LinkedIn-(https://www.linkedin.com/in/himadri-behera/)
+
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ └── Navbar.jsx
+├── redux/
+│ ├── dropSlice.js
+│ └── store.js
+├── pages/
+│ └── Home.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## 🧑‍💻 Getting Started Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/codedrops.git
+cd codedrops
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the app
+npm run dev
+
+# 4. Open your browser at
+http://localhost:5173
+
+
+
+
