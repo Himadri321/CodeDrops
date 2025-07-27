@@ -1,4 +1,4 @@
-CodeDrops – Shareable Note Drops
+CodeDrops – Your Personal Code & Note Vault
 
 ## 🌟 Features
 
